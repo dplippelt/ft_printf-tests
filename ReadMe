@@ -1,0 +1,10 @@
+unit-test:
+
+Make sure the path to the project directory is correct in the Makefile inside the unit-test folder
+run make f inside the unit-test folder to run a full test
+See README inside of unit-test for instructions on how to use and additional options
+
+myTests:
+
+copy main.c into project folder
+use make test inside project folder to create test a.out
