@@ -6,5 +6,8 @@ See README inside of unit-test for instructions on how to use and additional opt
 
 myTests:
 
-copy main.c into project folder
-use make test inside project folder to create test a.out
+In Makefile:
+	- Set path to project directory and include directory (likely the same)
+	- Set value of BONUS variable to 0 or 1 depending on whether the bonus part was completed
+
+run make or make memory (to check for memory leaks)
